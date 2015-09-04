@@ -1,0 +1,82 @@
+.rd-Section3 {
+  font-family: avenir;
+  position: relative;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  padding-bottom: 78px;
+
+  @media (min-width: @mq-desktop-min) {
+    padding-top: 112px;
+    padding-bottom: 106px;
+  }
+
+  .rd-Section3-header {
+    font-family: avenir-xbold;
+    font-size: 28px;
+    line-height: 28px;
+
+    @media (min-width: @mq-desktop-min) {
+      font-size: 40px;
+      line-height: 45px;
+      display: inline-block;
+      padding-top: 36px;
+    }
+  }
+
+  #rd-Section3-firstHeader {
+    padding-top: 78px;
+    padding-left: 7%;
+    padding-right: 7%;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 36px;
+      padding-left: 0;
+      padding-right: 8px;
+    }
+  }
+
+  #rd-Section3-secondHeader {
+    color: @purple;
+    padding-bottom: 37px;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-bottom: 0;
+    }
+  }
+
+  .rd-Section3-image {
+    background-image: url('../../images/section3_mobile_device_outline.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 103px;
+
+    @media (min-width: @mq-tablet-min) {
+      background-image: url('../../images/section3_tablet_device_outline.jpg');
+      height: 251px;
+    }
+
+    @media (min-width: @mq-desktop-min) {
+      background-image: url('../../images/section3_desktop_device_outline.png');
+      height: 320px;
+      padding-top: 80px;
+      transition: 0.7s;
+      transform: translate(0px, 100px);
+      opacity: 0;
+    }
+  }
+
+  .rd-Section3-body {
+    font-family: avenir-semibold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    padding-top: 42px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 18px;
+    }
+  }
+}

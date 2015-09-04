@@ -1,0 +1,76 @@
+/**********************************/
+/*         Section5               */
+/**********************************/
+
+.rd-Section5 {
+	background-color: @pink;
+	margin-right: 0px;
+	margin-left: 0px;
+  color: @white;
+  text-align: center;
+  padding-bottom: 13px;
+
+  @media (min-width: @mq-desktop-min) {
+    padding-bottom: 35px;
+  }
+  
+  .rd-Section5-title {
+  	font-family: avenir-bold;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 62px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    @media (min-width: @mq-desktop-min) {
+    	font-size: 36px;
+      line-height: 47.6px;
+      padding: 90px 23% 85px;
+    }
+  }
+  
+  .rd-Section5-logoBucket {
+  	text-align: center;
+  	padding-bottom: 72px;
+    
+
+    .rd-Section5-img {
+
+      @media (min-width: @mq-desktop-min) {
+        height: 70px;
+        transition: 0.7s;
+        transform: translate(20px, 0px);
+        opacity: 0;
+      }
+         
+      img {
+        zoom: 0.75;
+
+        @media (min-width: @mq-desktop-min) {
+          zoom: 1.0;
+          transform: translateY(-45%);
+        }
+      }
+
+    }
+
+    .rd-Section5-logoText {
+    	font-family: avenir-light;
+    	font-size: 16px;
+      line-height: 16px;
+    	text-align: center;
+    	padding-top: 16px;
+
+      @media (min-width: @mq-desktop-min) {
+        padding-top: 0;
+        transition: 0.7s;
+        transform: translate(20px, 0px);
+        opacity: 0;
+      }
+    }
+  }
+}
+
+

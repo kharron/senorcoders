@@ -1,0 +1,24 @@
+@mq-mobile-max: 350px;
+@mq-tablet-min: 750px;
+@mq-desktop-min: 1024px;
+
+@screen-xs-max: @mq-mobile-max;
+@screen-md-min: @mq-desktop-min;
+
+body{
+
+  @media (min-width: @mq-desktop-min) {  }
+}
+
+// Global styles
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  outline: none;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+  }
+}

@@ -1,0 +1,324 @@
+/* TODO Make this less Generic
+.row {
+  margin: 0;
+}
+
+*/
+.rd-Section4 {
+  font-family: avenir;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  background-color: @gray;
+  text-align: center;
+
+  @media (min-width: @mq-desktop-min) {
+    padding-top: 92px;
+  }
+
+  .rd-Section4-header {
+    font-family: avenir-xbold;
+    font-size: 28px;
+    line-height: 28px;
+    max-width: 425px;
+    padding-top: 77px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: @mq-desktop-min) {
+      font-size: 40px;
+      line-height: 30px;
+      letter-spacing: 0.8px;
+      max-width: 900px;
+      padding: 0;
+    }
+  }
+
+  .rd-Section4-subheader {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    padding-top: 32px;
+    padding-left: 14%;
+    padding-right: 14%;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 23px;
+      letter-spacing: 0.45px;
+    }
+  }
+
+  .rd-Section4-mainWrapper {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: @mq-desktop-min) {
+      max-width: 1080px;
+    }
+  }
+
+  .rd-Section4-free, .rd-Section4-select, .rd-Section4-unlimited {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .rd-Section4-select, .rd-Section4-unlimited {
+    padding-top: 20px;
+    
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 30px;
+    }
+  }
+
+  .rd-Section4-free {
+    padding-top: 68px;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 30px;
+      padding-left: 0px;
+      padding-right: 16px;
+    }
+  }
+
+  .rd-Section4-select {
+    @media (min-width: @mq-desktop-min) {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  }
+
+  .rd-Section4-unlimited {
+    @media (min-width: @mq-desktop-min) {
+      padding-left: 14px;
+      padding-right: 0;
+    }
+  }
+
+  .rd-Section4-sectionHeader {
+    background-color: @darkgray;
+    letter-spacing: 0.24px;
+  }
+
+  .rd-Section4-title {
+    font-family: avenir-bold;
+    font-size: 26px;
+    line-height: 26px;
+    color: @white;
+    padding-top: 28px;
+  }
+
+  .rd-Section4-description {
+    font-size: 12.8px;
+    line-height: 14px;
+    color: @mediumdarkgray;
+  }
+
+  .rd-Section4-price {
+    font-family: avenir-bold;
+    font-size: 17.67px;
+    line-height: 20px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+  }
+
+  .rd-Section4-colorBar {
+    height: 7px;
+  }
+  
+  .rd-Section4-freeList, .rd-Section4-selectList, .rd-Section4-unlimitedList {
+    background-color: @white;
+    text-align: left;
+  }
+
+  .rd-Section4-list {
+    list-style-image: url('../images/section4_blue_check.png');
+    position: relative;
+    height: 68.9px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.4px;
+    
+    .wrapper {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+
+      img {
+        float: left;
+      }
+
+      div:not(.dot):not(.dotText) {
+        float: left;
+        max-width: 86%;
+        padding-left: 7%;
+      }
+
+      .dot {
+        float: left;
+        padding-left: 1%;
+      }
+
+      .tag {
+        line-height: 20px;
+        transform: translate(0px, -14px);
+
+        @media (min-width: @mq-desktop-min) {
+          transform: translate(0px, -4px);
+        }
+      }
+
+      .dim {
+        color: @dimgray;
+      }
+
+      .dotText {
+        float: left;
+        padding-left: 8%;
+      }
+
+    }
+    &:not(:nth-child(4)) {
+      border-bottom: 1px solid #F8F8F8;
+    }
+  }
+
+  .rd-Section4-buttonWrapper {
+    background-color: @white;
+    padding-top: 28px;
+    padding-bottom: 43px;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 36px;
+    }
+
+    .rd-Section4-button {
+      font-family: avenir-bold;
+      font-size: 17.66px;
+      line-height: 14.73px;
+      letter-spacing: 0.24px;
+      color: @white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.4s;
+      transition-property: background-color;
+    }
+
+  }
+
+  .rd-Section4-free {
+
+    .rd-Section4-description {
+      padding-top: 17px;
+    }
+
+    .rd-Section4-price {
+      color: @blue;
+    }
+
+    .rd-Section4-colorBar, .rd-Section4-button {
+      background-color: @blue;
+    }
+
+    .rd-Section4-button {
+      padding: 17px 78px;
+
+      @media (max-width: @mq-mobile-max) {
+        padding: 15px 60px; 
+      }
+
+      @media (min-width: @mq-desktop-min) {
+        padding: 18px 80px;
+
+        &:hover {
+          background-color: @bluehover;
+        }
+      }
+    }
+  }
+
+  .rd-Section4-select {
+
+    .rd-Section4-description {
+      padding-top: 10px;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    .rd-Section4-price {
+      padding-top: 15px;
+      color: @lightblue;
+    }
+
+    .rd-Section4-colorBar, .rd-Section4-button {
+      background-color: @lightblue;
+    }
+
+    .rd-Section4-button {
+      padding: 17px 71px;
+
+      @media (max-width: @mq-mobile-max) {
+        padding: 15px 60px; 
+      }
+      
+      @media (min-width: @mq-desktop-min) {
+        padding: 18px 73px;
+
+        &:hover {
+          background-color: @lightbluehover;
+        }
+      }
+    }
+  }
+
+  .rd-Section4-unlimited {
+
+    .rd-Section4-description {
+      padding-top: 10px;
+      padding-left: 17%;
+      padding-right: 17%;
+    }
+
+    .rd-Section4-price {
+      padding-top: 15px;
+      color: @limegreen;
+    }
+
+    .rd-Section4-colorBar, .rd-Section4-button {
+      background-color: @limegreen;
+    }
+
+    .rd-Section4-button {
+      padding: 18px 54px;
+
+      @media (max-width: @mq-mobile-max) {
+        padding: 15px 40px; 
+      }
+      
+      @media (min-width: @mq-desktop-min) {
+        &:hover {
+          background-color: @limegreenhover;
+        }
+      }
+    }
+  }
+
+  .rd-Section4-footer {
+    font-family: avenir-semibold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.24px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    a {
+      color: @black;
+      text-decoration: underline;
+    }
+  }
+
+}

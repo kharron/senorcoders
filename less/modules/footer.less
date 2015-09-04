@@ -1,0 +1,169 @@
+.rd-footer {
+  font-family: avenir;
+  position: relative;
+  width: 100%;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  background-color: @deepdarkblue;
+  text-align: center;
+  color: @white;
+
+  @media (min-width: @mq-desktop-min) {
+    text-align: left;
+    padding-bottom: 38px;
+  }
+
+  .rd-footer-header {
+    padding-top: 72px;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 128px;
+      padding-left: 11.35%;
+    }
+  }
+
+  .rd-footer-imageText {
+    font-family: avenir-bold;
+    font-size: 12px;
+    padding-top: 7px;
+
+    @media (min-width: @mq-desktop-min) {
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      padding-top: 11px;
+    }
+  }
+
+  .rd-footer-row {
+    text-align: left;
+    padding-top: 34px;
+
+    @media (min-width: @mq-desktop-min) {
+      padding-top: 0;
+    }
+
+    .rd-footer-appsRow {
+      
+      .rd-footer-apps {
+        padding-top: 18px;
+        text-align: center;
+
+        @media (min-width: @mq-desktop-min) {
+          width: 38%;
+          display: inline-block;
+          padding-top: 13px;
+        }
+
+        .rd-footer-appStore {
+          background-image: url(../images/footer_mobile_app_store.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 91px;
+
+          @media (min-width: @mq-desktop-min) {
+            background-image: url(../images/footer_desktop_app_store.png);
+            background-position: right;
+            height: 61px;
+          }
+        }
+
+        .rd-footer-googlePlay {
+          background-image: url(../images/footer_mobile_google_play.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 91px;
+
+          @media (min-width: @mq-desktop-min) {
+            background-image: url(../images/footer_desktop_google_play.png);
+            background-position: left;
+            height: 61px;
+          }
+        }
+
+        .rd-footer-windowStore {
+          background-image: url(../images/footer_mobile_windows_store.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 91px;
+
+          @media (min-width: @mq-desktop-min) {
+            background-image: url(../images/footer_desktop_windows_store.png);
+            background-position: right;
+            height: 61px;
+          }
+        }
+      }
+      
+      .one, .three {
+        @media (min-width: @mq-desktop-min) {
+          margin-left: 9.8%;
+        }
+      }
+
+      .two {
+        @media (min-width: @mq-desktop-min) {
+          width: 40.7%;
+          padding-left: 2.7%;
+        }
+      }
+
+    }
+  
+
+
+    .rd-footer-categories {
+      padding-top: 45px;
+      padding-bottom: 34px;
+
+      @media (min-width: @mq-tablet-min) {
+        padding-left: 24%;
+      }
+
+      @media (min-width: @mq-desktop-min) {
+        padding-top: 86px;
+        padding-left: 8%;
+      }
+
+      .rd-footer-categoryBlock {
+        height: 126px;
+        padding-left: 0;
+        padding-right: 0;
+
+        @media (min-width: @mq-desktop-min) {
+          width: 21%;
+        }
+        
+        a {
+          font-family: avenir-bold;
+          font-size: 14px;
+          color: @white;
+          line-height: 14px;
+          text-decoration: none;
+          display: block;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          transition: 0.4s;
+          transition-property: color;
+
+          @media (min-width: @mq-desktop-min) {
+            line-height: 7px;
+
+            &:hover {
+              color: @mediumgray;
+            }
+          }
+        }
+      }
+
+      .one, .three {
+        padding-left: 10%;
+      }
+
+      .one, .two, .three, .four {
+        @media (min-width: @mq-desktop-min) {
+          padding-left: 8.2%;
+        }
+      }
+    }
+  }
+}
