@@ -12,7 +12,7 @@
 
         // Default settings
         var settings = $.extend({
-            'username': null,
+            'username': 'senorcoders',
             'list': null,
             'hashtag': null,
             'count': 10,

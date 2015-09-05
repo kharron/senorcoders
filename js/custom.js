@@ -241,7 +241,7 @@ $('.tweet').twittie({
     dateFormat: '%b. %d, %Y',
     template: '<a href="{{url}}">{{avatar}}</a>{{tweet}} <div class="date">by {{screen_name}} {{date}} </div>',
     
-    username: 'envato',
+    username: 'kharron',
     count: 4,
   
 });
