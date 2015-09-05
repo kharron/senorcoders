@@ -5,3 +5,4 @@ css/main.css
 js/main.min.js
 js/vendor.min.js
 **/*.log
+clients/*
