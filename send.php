@@ -13,7 +13,7 @@ $message=$_POST['message'];
     $body .= "Message: " . $message . "\n"; 
 
     //replace with your email
-  //  mail("hello@bypixels.com","New email",$body); 
+ mail("kharronreid@gmail.com","Email from SenorCoders website",$body); 
 
   
 ?>

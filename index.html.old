@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<title>Senor Coders - Inexpensive coding on time</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!-- DEFAULT TEMPLATE FONTS DO NOT REMOVE -->
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700' rel='stylesheet' type='text/css'> -->
+<!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'> -->
+<link href='css/fonts.css' rel='stylesheet' type='text/css'>
+<link href='css/fonts2.css' rel='stylesheet' type='text/css'>
+
+<!-- MAIN CSS LIBRARIES -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+<link href="css/YTPlayer.css" rel="stylesheet" type="text/css" />
+<link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/extralayers.css" media="screen" />
+
+<!-- MAIN STYLES FOR THE TEMPLATE -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="top"></div>
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+
+<!-- *** HEADER STARTS *** -->
+<header class="transparent_menu">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+
+				<!-- *** LOGOS STARTS *** -->
+				<div id="logo">
+					<a href="#top"><img src="images/logo.png" alt="logo"></a>
+				</div>
+				<div id="logo_dark">
+					<a href="#top"><img src="images/logo_dark.png" alt="logo"></a>
+				</div> 
+				<!-- *** LOGOS END *** -->
+
+				<ul class="mobile_nav_trigger">
+						<li><a href="#responsive_nav" class="menu_trigger"><i class="fa fa-bars fa-2x"></i></a></li>
+				</ul>
+
+					<div class="social_nav">
+					<ul>
+						<li class="twitter_header_icon"><a href="http://www.twitter.com/senorcoders" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li class="facebook_header_icon"><a href="#facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
+					</ul>
+				</div>
+				
+				<!-- *** MAIN NAVIGATION STARTS *** -->
+				<nav class="main_nav white">
+					<ul>
+						<li class="active"><a href="#top">Home</a></li>
+						<li><a href="#about">About </a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#process_one">Process</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#footer">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- *** MAIN NAVIGATION END *** -->
+
+			</div><!--col-me-12-->
+		</div><!--row-->
+	</div><!--container-fluid-->
+
+
+<!-- *** RESPONSIVE NAV START *** -->
+	<div class="responsive_nav">
+		<div class="mobileAreaMenu">
+			<ul>
+				<li class="active"><a href="#top">Home</a></li>
+				<li><a href="#about">About </a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#process_one">Process</a></li>
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</div><!--mobileAreaMenu-->
+	</div><!--responsive_nav-->
+<!-- *** RESPONSIVE NAV END *** -->
+
+</header>
+<!-- *** HEADER END *** -->
+
+
+
+<!-- *** SLIDE STARTS *** -->
+<div class="tp-banner-container">
+		<div class="tp-banner" >
+			<ul>	<!-- SLIDE  -->
+
+
+
+
+<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="images/bg-hero-nica-thumb.jpg"  data-saveperformance="on"  data-title="We Are SC">
+		<!-- MAIN IMAGE -->
+		<img src="assets/dummy.png"  alt="slidebg1" data-lazyload="images/bg-hero-nica.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	<div class="caption lft ltt cap_style_11"  
+			 data-x="center"
+			 data-y="340" 
+			 data-speed="600" 
+			 data-start="800" 
+			 data-easing="easeOutExpo" >Welcome
+		</div>
+		<div class="caption lfb ltb cap_style_10"  
+			 data-x="center"
+			 data-y="440" 
+			 data-speed="600" 
+			 data-start="1200" 
+			 data-easing="easeOutExpo" >We are <span style="color:#00d2ff!important;">Se&ntilde;or Coders</span>
+		</div>
+
+
+	<div class="caption lfb ltb"  
+			 data-x="center"
+			 data-y="510" 
+			 data-speed="600" 
+			 data-start="1500" 
+			 data-easing="easeOutExpo" ><img src="assets/slide11/slide11_line.jpg" alt="">
+		</div>
+
+		<div class="caption lfb ltb cap_style_11_subtitle"  
+			 data-x="center"
+			 data-y="540" 
+			 data-speed="600" 
+			 data-start="1600" 
+			 data-easing="easeOutExpo" >A development agency based in Nicaragua.
+		</div>
+
+	</li>
+
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="images/bg-hero-slide2-thumb.jpg"  data-saveperformance="on"  data-title="We Build">
+		<!-- MAIN IMAGE -->
+		<img src="assets/dummy.png"  alt="slidebg1" data-lazyload="images/bg-hero-slide2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	<div class="caption lft ltt cap_style_11"  
+			 data-x="center"
+			 data-y="340" 
+			 data-speed="600" 
+			 data-start="800" 
+			 data-easing="easeOutExpo" >We build
+		</div>
+		<div class="caption lfb ltb cap_style_10"  
+			 data-x="center"
+			 data-y="440" 
+			 data-speed="600" 
+			 data-start="1200" 
+			 data-easing="easeOutExpo" >High End Web <span style="color:#00d2ff!important;">Sites</span>
+		</div>
+
+
+	<div class="caption lfb ltb"  
+			 data-x="center"
+			 data-y="510" 
+			 data-speed="600" 
+			 data-start="1500" 
+			 data-easing="easeOutExpo" ><img src="assets/slide11/slide11_line.jpg" alt="">
+		</div>
+
+		<div class="caption lfb ltb cap_style_11_subtitle"  
+			 data-x="center"
+			 data-y="540" 
+			 data-speed="600" 
+			 data-start="1600" 
+			 data-easing="easeOutExpo" >Using local talent we provide high quality sites <br>for a fraction of the cost.
+		</div>
+
+	</li>
+
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="images/bg-hero-slide3-thumb.jpg"  data-saveperformance="on"  data-title="You work. We work.">
+		<!-- MAIN IMAGE -->
+		<img src="assets/dummy.png"  alt="slidebg1" data-lazyload="images/bg-hero-slide3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	<div class="caption lft ltt cap_style_11"  
+			 data-x="center"
+			 data-y="340" 
+			 data-speed="600" 
+			 data-start="800" 
+			 data-easing="easeOutExpo" >We live in mountain time
+		</div>
+		<div class="caption lfb ltb cap_style_10"  
+			 data-x="center"
+			 data-y="440" 
+			 data-speed="600" 
+			 data-start="1200" 
+			 data-easing="easeOutExpo" >We Work <span style="color:#00d2ff!important;">When you work.</span>
+		</div>
+
+
+	<div class="caption lfb ltb"  
+			 data-x="center"
+			 data-y="510" 
+			 data-speed="600" 
+			 data-start="1500" 
+			 data-easing="easeOutExpo" ><img src="assets/slide11/slide11_line.jpg" alt="">
+		</div>
+
+		<div class="caption lfb ltb cap_style_11_subtitle"  
+			 data-x="center"
+			 data-y="540" 
+			 data-speed="600" 
+			 data-start="1600" 
+			 data-easing="easeOutExpo" >No more 24 hour turn around times.  Call us in the middle of your work day.
+		</div>
+
+	</li>
+
+
+
+</ul>
+<div class="tp-bannertimer"></div>	</div>
+</div>
+<!-- *** SLIDE END *** -->
+
+
+
+<div id="about"></div>
+<!-- *** WELCOME STARTS *** -->
+<div id="welcome">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logo_welcome">
+					<img src="images/logo-senorcoders.gif" alt="">
+				</div>
+				<div class="welcome-text">
+					<p>We build highly functional web sites that give you the power to update them at your will.  Up-to-date designs.  Freshen up your logo. We dedicate a team to making your brand something to be proud of. Do this all at a price that doesn't make you think twice.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- *** WELCOME END *** -->
+
+<!-- *** PORTFOLIO START *** -->
+<div id="portfolio" class="section nobottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 animated" data-animation-target="9">
+				<div class="page_title">
+					<h1 class="title">See what we've done? Not too  <strong>shabby.</strong></h1>
+					<h2 class="page_subtitle">We are proud of every site we touch and willing to show you.</h2>
+				</div><!--page-title-->
+			</div>
+
+			<div class="col-md-12">
+				<div id="portfoliod">			
+					<div id="portfolioAjaxwrap"> 
+					<div id="portfolioAjax" class="clearfix">
+					<div id="portfolioAjaxControlls" class="clearfix">
+						<a id="ajax_close" href="#"><span class="inner"></span></a>
+					</div><div class="clear"></div>
+					<div id="portfolioData"></div>
+					</div><!--portfolioAjax-->
+					</div>
+				</div><!--portfoliod-->
+			</div>
+		</div><!--row-->
+	</div><!--container-->
+
+
+	<div class="grid animated" data-animation-target="10">
+
+		<div class="portfolio-item effect marketing" style="background-image: url('images/portfolio-3-thumb.png');">
+			
+			<div class="over"></div>
+			<div class="figcaption">
+				<h2>Caribe Sur <span>Real Estate</span></h2>
+				<div class="commands">
+					<span><a href="portfolio_3.html" class="ajax-trigger"><i class="fa fa-search"></i></a></span>
+				</div><!--commands-->
+				<p class="portfolio_description">Caribe Sur Real Estate is a leading broker in the beautiful caribbean of Costa Rica.<br />Wordpress, HTML5, CSS3, JS.</p>
+				
+			</div>			
+		</div><!--portfolio-item-->
+
+		<div class="portfolio-item effect photoshop" style="background-image: url('images/portfolio-2-thumb.gif');">
+		
+			<div class="over"></div>
+			<div class="figcaption">
+				<h2>SJDS <span>Directory</span></h2>
+				<div class="commands">
+					<span><a href="portfolio_2.html" class="ajax-trigger"><i class="fa fa-search"></i></a></span>
+				</div><!--commands-->
+				<p class="portfolio_description">A business directory for San Juan Del Sur, Nicaragua. <br />HTML5, CSS3, JS, Django / Python</p>
+				
+			</div>			
+		</div><!--portfolio-item-->
+
+		<!-- 
+		<div class="portfolio-item effect marketing" style="background-image: url('images/portfolio-1-thumb.jpg');">
+			
+			<div class="over"></div>
+			<div class="figcaption">
+				<h2>Rdio <span>Landing Page</span></h2>
+				<div class="commands">
+					<span><a href="portfolio_1.html" class="ajax-trigger"><i class="fa fa-search"></i></a></span>
+				</div><!--commands-->
+				<!--	<p class="portfolio_description">Rdio is a leader in the streaming music space.<br />HTML5, CSS3, JS.</p> -->
+			e
+			<udiv>			
+		</div><!--portfolio-item-->
+		-->
+
+	</div><!--grid-->
+
+
+</div>
+<!-- *** PORTFOLIO END *** -->
+
+<!-- *** PROCESS TWO START *** -->
+<div id="process_one"></div>
+<div id="process_two" class="section animated" data-animation-target="14">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 animated" data-animation-target="9">
+				<div class="page_title">
+					<h1 class="title">Continuous attention to Process &amp; <strong>excellence</strong></h1>
+					<h2 class="page_subtitle">We ensure you know what is going on at all times.</h2>
+				</div><!--page-title-->
+			</div>
+
+			
+			<div class="col-md-6">
+				<div class="process_item_icon_right">
+					<div class="process_icon">
+						<div class="buzz"><i class="fa fa-thumbs-o-up fa-5x"></i></div>
+					</div>
+				<h3 class="uppercase">Planning and UX</h3>
+				<p>UX (User Experience) wire frames. Preparing to setup your site to provide your users with an "easy to use" experience. At this point an accurate timeline is created as well. Understanding the user interactions that are expected on each page allows our developers to properly estimate execution time with QA (tests for bugs).</p>
+				</div><!--process_item_icon_right-->
+			</div><!--col-md-6-->
+
+			<div class="col-md-6">
+				<div class="process_item">
+					<div class="process_icon">
+						<div class="buzz"><i class="fa fa-file-image-o fa-5x"></i></div>
+					</div>
+				<h3 class="uppercase">Layout Design</h3>
+				<p>Make it pretty!  Our designers can provide your users with a unique experience while guiding them through your product. </p>
+				</div><!--process_item-->
+			</div><!--col-md-6-->
+
+			<div class="clear"></div>
+
+			<div class="col-md-6">
+				<div class="process_item_icon_right">
+					<div class="process_icon">
+						<div class="buzz"><i class="fa fa-sitemap fa-5x"></i></div>
+					</div>
+				<h3 class="uppercase">Infrastructure Setup</h3>
+				<p>While boring, setting up a foundation upon which to build your site will provide you with the transparency you'll want to feel comfortable throught the entire process.  Development and staging servers allow a sandbox and preview of the site to be.  </p>
+				</div><!--process_item_icon_right-->
+			</div><!--col-md-6-->
+
+			<div class="col-md-6">
+				<div class="process_item">
+					<div class="process_icon">
+						<div class="buzz"><i class="fa fa-file-word-o fa-5x"></i></div>
+					</div>
+				<h3 class="uppercase">Development</h3>
+				<p>The development of your site will progress daily.  Each milestone will be placed on the staging server for you to QA and sign off on. </p>
+				</div><!--process_item-->
+			</div><!--col-md-6-->
+
+			<div class="clear"></div>
+
+			<div class="col-md-6">
+				<div class="process_item_icon_right">
+					<div class="process_icon">
+						<div class="buzz"><i class="fa fa-bolt fa-5x"></i></div>
+					</div>
+				<h3 class="uppercase">Quality Assurance</h3>
+				<p>There will be bugs.  Every application will contain bugs initially.  Every client will change their mind about something.  This is normal, and it is at this point that this QA stuff usually happens.  We are prepared to fix/update rinse and repeat. </p>
+				</div><!--process_item_icon_right-->
+			</div><!--col-md-6-->
+
+		</div><!--row-->
+	</div><!--container-->
+</div>
+<!-- *** PROCESS TWO END *** -->
+
+<!-- *** FAQ START *** -->
+<div id="faq" class="section gray animated" data-animation-target="16">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page_title">
+					<h1 class="title">You have questions? <strong>We have answers.</strong></h1>
+					<h2 class="page_subtitle">Building a web site may not be something you do every day.</h2>
+				</div><!--page-title-->
+			</div>
+
+
+
+			<div class="col-md-6">
+				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
+				<h3>Nicaragua? Why Nicaragua?</h3>
+				<div class="clear"></div>
+				<p>Nicaragua is a beautiful place to live and offers more than you could imagine.</p>			
+			</div><!--col-md-6-->
+
+			<div class="col-md-6">
+				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
+				<h3>What benefits would I see working with an agency in Nicaragua?</h3>
+				<div class="clear"></div>
+				<p>Well, for starters, it is about 1/3 the price to have our agency in Nicaragua build a web site for you than in the United States.  But, you still get the benefits of someone that was building a site for you in the States.</p>	
+		
+			</div><!--col-md-6-->
+
+			
+
+			<div class="col-md-6">
+				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
+				<h3>But isn't this the same as someone in India or the Philippines building a site for me?</h3>
+				<div class="clear"></div>
+				<p>Well, no.  Two reasons: <br />1. Nicaragua is on Mountain Time (Arizona).  So, contacting us here at the agency for questions, updates, changes would happen while the sun is up for you as well as us. <br />2. There is a seasoned statesman at the helm of this Agency.  Kharron Reid has 17 years of web development experience and running web agencies.  San Diego is home for Kharron, but Kharron has worked for many different companies in many areas including some in San Francisco and Silicon Valley.  So, your project will be handled by someone who's first language is English and knows web development very well.</p>					
+			</div><!--col-md-6-->
+
+			<div class="col-md-6">
+				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
+				<h3>How do I call you if I need something?</h3>
+				<div class="clear"></div>	
+				<p>Well, we have a swath of methods for you to communicate with us over the internet such as skype, appear.in, etc.  However, if you ever just want to pick up a phone, well we have a U.S. based phone number as well.  619.383.3695</p>					
+			</div><!--col-md-6-->
+
+			<div class="col-md-6">
+				<div class="faq_icons"><a href="#" class="faq_icon"><i class="fa fa-question-circle fa-3x"></i></a></div>
+				<h3>How long does it take to make a web site?</h3>
+				<div class="clear"></div>
+				<p>For a fairly standard web site you can expect about a month to 6 weeks from door to door.</p>					
+			</div><!--col-md-6-->
+
+		</div><!--row-->
+	</div><!--container-->
+</div>
+<!-- *** FAQ END *** -->
+
+
+
+
+
+
+
+
+<!-- *** PARALLAX START *** -->
+<div class="parallax" style="background-image: url(images/1920x1080.gif);">
+	<div class="parallax_over">
+		<div class=" testimonials_heading">
+		
+		<div class="container animated"  data-animation-target="17">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="parallax_heading">
+						<h2>Our testimonials</h2>
+					</div>
+				</div>
+
+
+				<div class="col-xs-8 col-xs-offset-2">
+
+
+					<!-- *** START TESTIMONIALS SLIDE WRAPPER *** -->
+					<div id="testimonials_slide">
+						
+							<div class="slide_item">
+								<div class="testimonials_text">
+								<p>“Kharron, you’re a hero. I’ve been trying to get some of the stuff on that list done for weeeeeks and you did it in a weekend. The News &amp; Blog improvements are exactly what I had in mind. Looks phenomenal.”</p>
+								</div>
+								<div class="testimonials_picture">
+								<img src="images/testimonial-joe.jpg" width="90" alt="">
+								</div>
+
+								<p class="testimonials_name">Joe, Caribe-Sur Real Estate</p>
+								<p class="testimonials_job">Program Director</p>
+							</div><!--slide_item-->
+
+					</div>
+					<!-- *** END TESTIMONIALS SLIDE WRAPPER *** -->
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		</div><!--testimonials_heading-->
+
+	</div><!--parallax_over-->
+</div>
+<!-- *** PARALLAX END *** -->
+
+<div class="clear"></div>
+
+
+<!-- *** FOOTER START *** -->
+<div id="footer" class="animated" data-animation-target="21">
+	<div class="col_footer">
+		<h2>About Us</h2>
+		<div class="footer_logo"><img src="images/logo_footer.png" alt=""></div>
+		<p>Professional coders from Central America.  Headed by a seasoned vet from California.  We develop wordpress sites.</p>
+
+		<div class="divider_padding small"></div>
+
+		<h2>Our location</h2>
+
+		<ul class="footer_adress">
+			<li><i class="fa fa-map-marker fa-2x"></i>20 Mts North of El Timon, San Juan Del Sur, Rivas, Nicaragua.</li>
+			<li><i class="fa fa-mobile fa-2x"></i>+505 7678 5576 / +619 383-3695</li>
+		</ul>
+	
+
+		<div class="divider_padding small"></div>
+
+		<h2>Social</h2>
+
+		<ul class="footer_icon">
+			<li><a href="http://www.twitter.com/senorcoders" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+			<li><a href="https://www.linkedin.com/kharronreid"><i class="fa fa-linkedin fa-2x"></i></a></li>
+			<li><a href="https://www.github.com/kharron"><i class="fa fa-github-square fa-2x"></i></a></li>
+		</ul>
+
+	</div>
+
+	<div class="col_footer middle">
+			<h2>Our Upcoming Events</h2>	
+		<div class="events"></div>
+	</div>
+
+	<div class="col_footer">
+		<h2>Contact</h2>
+
+		<form method="post" class="reply-input" action="send.php">
+
+			<input type="text" name="name" id="comment-name" required="" value="Your name (required)" onblur="if(this.value=='')this.value='Your name (required)'" onfocus="if(this.value=='Your name (required)')this.value=''"/>
+			<input type="email" name="email" id="comment-email" required="" value="Your email (required)" onblur="if(this.value=='')this.value='Your email (required)'" onfocus="if(this.value=='Your email (required)')this.value=''"/>
+			<input type="text" name="website" id="comment-url" value="Your website" onblur="if(this.value=='')this.value='Your website'" onfocus="if(this.value=='Your website')this.value=''"/>
+			<textarea name="message" id="comment-message" cols="88" rows="6" required="" onblur="if(this.value=='')this.value='Your message'" 
+			onfocus="if(this.value=='Your message')this.value=''">Your message</textarea>
+			<div class="clear"></div>
+			<input class="submit_buttom" type="submit" value="Send Message">
+
+		</form>
+			
+	</div>
+	<div class="clear"></div>
+</div>
+<!-- *** FOOTER END *** -->
+
+
+
+<!-- *** SUBFOOTER START *** -->
+<div id="subfooter">
+<div class="copyright">Your site can be this cool.</div> <div class="by_author">With Nica love <a href="#">SenorCoders</a></div><div class="clear"></div>
+</div>
+<!-- *** SUBFOOTER END *** -->
+
+
+<!-- SCRTIPS START-->
+
+
+<div class="loading_icon"></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>	
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/retina.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/isotope.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/tweetie.js"></script>
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+<script type="text/javascript" src="js/custom.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-67241843-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+
+	jQuery(document).ready(function() {
+
+	
+	jQuery('.tp-banner').show().revolution(
+		{
+			dottedOverlay:"none",
+			delay:7000,
+			startwidth:1170,
+			startheight:900,
+			hideThumbs:200,
+			
+			thumbWidth:100,
+			thumbHeight:50,
+			thumbAmount:5,
+			
+			navigationType:"bullet",
+			navigationArrows:"solo",
+			navigationStyle:"preview4",
+			
+			touchenabled:"on",
+			onHoverStop:"on",
+			
+			swipe_velocity: 0.7,
+			swipe_min_touches: 1,
+			swipe_max_touches: 1,
+			drag_block_vertical: false,
+									
+			parallax:"mouse",
+			parallaxBgFreeze:"on",
+			parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+									
+			keyboardNavigation:"off",
+			
+			navigationHAlign:"center",
+			navigationVAlign:"bottom",
+			navigationHOffset:0,
+			navigationVOffset:20,
+
+			soloArrowLeftHalign:"left",
+			soloArrowLeftValign:"center",
+			soloArrowLeftHOffset:20,
+			soloArrowLeftVOffset:0,
+
+			soloArrowRightHalign:"right",
+			soloArrowRightValign:"center",
+			soloArrowRightHOffset:20,
+			soloArrowRightVOffset:0,
+					
+			shadow:0,
+			fullWidth:"on",
+			fullScreen:"off",
+
+			spinner:"spinner4",
+			
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+
+			shuffle:"off",
+			
+			autoHeight:"off",						
+			forceFullWidth:"on",						
+									
+									
+									
+			hideThumbsOnMobile:"off",
+			hideNavDelayOnMobile:1500,						
+			hideBulletsOnMobile:"off",
+			hideArrowsOnMobile:"off",
+			hideThumbsUnderResolution:0,
+			
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			startWithSlide:0,
+				
+		});
+				
+	});	//ready
+				
+</script>
+</body>
+</html>

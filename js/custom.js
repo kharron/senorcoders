@@ -1,10 +1,11 @@
 
 
 $(document).ready(function() {
-	 $('#status').fadeOut(); 
-  $('#preloader').delay(350).fadeOut('slow'); 
 
-  $('.grid').removeClass('two_columns four_columns').addClass('two_columns');
+
+
+
+
 
 	
 
@@ -550,6 +551,8 @@ $(window).load(function() {
 /*=================================================
 18 - PRELOADER 
 =================================================*/
+	 $('#status').fadeOut(); 
+  $('#preloader').delay(100).fadeOut('slow'); 
 
 
 
@@ -600,7 +603,7 @@ var bar = $('.bar');
               paginationSpeed : 400,
               singleItem:true,
                autoHeight : true,
-            transitionStyle:"fade"
+          //  transitionStyle:"fade"
           });
             
         });
